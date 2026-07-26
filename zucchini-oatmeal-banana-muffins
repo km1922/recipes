@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>Zucchini Banana Oatmeal Choc Chip Muffins</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Zucchini Banana Oatmeal Choc Chip Muffins",
+    "description": "Hearty, moist muffins packed with zucchini, mashed banana, warm cinnamon, and chocolate chips.",
+    "prepTime": "PT20M",
+    "cookTime": "PT28M",
+    "recipeYield": "24 muffins",
+    "recipeCategory": "Breakfast",
+    "recipeIngredient": [
+      "4 cups shredded zucchini",
+      "3 cups all-purpose flour",
+      "1.5 cups old-fashioned rolled oats",
+      "5 tsp ground cinnamon",
+      "3 tsp baking powder",
+      "1 tsp baking soda",
+      "1 tsp kosher salt",
+      "4 very ripe bananas, mashed",
+      "1 cup pure maple syrup",
+      "4 large eggs",
+      "1.5 cups vegetable oil",
+      "4 tsp vanilla extract",
+      "1.5 cups chocolate chips"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Preheat oven to 350°F (175°C). Line two muffin tins with paper liners."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Wrap the shredded zucchini in a clean kitchen towel and squeeze out as much excess water as possible. Set aside."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "In a very large bowl, whisk together flour, oats, cinnamon, baking powder, baking soda, and salt."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "In a separate large bowl, stir together mashed bananas, maple syrup, eggs, oil, and vanilla until fully combined."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Pour the wet ingredients into the dry ingredients and stir until just combined—don't overmix."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Gently fold in the drained zucchini and chocolate chips until evenly distributed."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Scoop about 1/3 cup of batter into each liner. Bake for 24 to 28 minutes, until a toothpick inserted into the center comes out with a few moist crumbs but no wet batter."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Let muffins cool in the pan for 10 minutes, then transfer to a wire rack to cool completely."
+      }
+    ]
+  }
+  </script>
+  <style>
+    body { font-family: system-ui, sans-serif; line-height: 1.6; max-width: 700px; margin: 2rem auto; padding: 0 1rem; color: #333; }
+    h1 { color: #2c3e50; }
+    ul, ol { padding-left: 1.2rem; }
+    li { margin-bottom: 0.5rem; }
+  </style>
+</head>
+<body>
+  <h1>Zucchini Banana Oatmeal Choc Chip Muffins</h1>
+  <p><em>Yield: 24 muffins</em></p>
+  
+  <h2>Ingredients</h2>
+  <ul>
+    <li>4 cups shredded zucchini</li>
+    <li>3 cups all-purpose flour</li>
+    <li>1.5 cups old-fashioned rolled oats</li>
+    <li>5 tsp ground cinnamon</li>
+    <li>3 tsp baking powder</li>
+    <li>1 tsp baking soda</li>
+    <li>1 tsp kosher salt</li>
+    <li>4 very ripe bananas, mashed</li>
+    <li>1 cup pure maple syrup</li>
+    <li>4 large eggs</li>
+    <li>1.5 cups vegetable oil</li>
+    <li>4 tsp vanilla extract</li>
+    <li>1.5 cups chocolate chips</li>
+  </ul>
+
+  <h2>Instructions</h2>
+  <ol>
+    <li>Preheat oven to 350°F (175°C). Line two muffin tins with paper liners.</li>
+    <li>Wrap the shredded zucchini in a clean kitchen towel and squeeze out as much excess water as possible. Set aside.</li>
+    <li>In a very large bowl, whisk together flour, oats, cinnamon, baking powder, baking soda, and salt.</li>
+    <li>In a separate large bowl, stir together mashed bananas, maple syrup, eggs, oil, and vanilla until fully combined.</li>
+    <li>Pour the wet ingredients into the dry ingredients and stir until just combined—don't overmix.</li>
+    <li>Gently fold in the drained zucchini and chocolate chips until evenly distributed.</li>
+    <li>Scoop about 1/3 cup of batter into each liner. Bake for 24 to 28 minutes, until a toothpick inserted into the center comes out with a few moist crumbs but no wet batter.</li>
+    <li>Let muffins cool in the pan for 10 minutes, then transfer to a wire rack to cool completely.</li>
+  </ol>
+</body>
+</html>
