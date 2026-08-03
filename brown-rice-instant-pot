@@ -1,0 +1,187 @@
+
+Brown rice cooking instructions in instant pot
+
+Cooking brown rice in an Instant Pot is a total game-changer. It turns a 45-minute stovetop commitment into a "set it and forget it" situation with much more consistent results.  
+YouTube
++ 1
+
+Here is the foolproof method for perfect, fluffy brown rice.
+
+The Golden Ratio
+For almost every variety of brown rice (Long-grain, Short-grain, or Jasmine), use a 1:1 ratio.
+
+1 cup brown rice
+
+1 cup water (or chicken/vegetable broth for extra flavor)
+
+Optional: 1/4 tsp salt and a splash of olive oil or butter.
+
+Step-by-Step Instructions
+Rinse the Rice: This is the secret to non-mushy rice. Place the rice in a fine-mesh strainer and rinse under cold water until the water runs clear. Drain well.
+
+Combine: Add the rinsed rice, water, and any seasonings to the Instant Pot inner pot. Stir once to ensure all rice is submerged.  
+Kristine's Kitchen
+
+Pressure Cook: * Secure the lid and set the valve to Sealing.
+
+Select Manual or Pressure Cook (High Pressure).
+
+Set the timer for 15 minutes.
+
+Natural Release (Crucial): Once the timer beeps, do not touch the valve. Let the pressure release naturally for 10 to 15 minutes. This allows the steam to finish softening the outer bran of the rice.
+
+Fluff and Serve: Flip the valve to "Venting" to release any remaining steam. Open the lid and fluff the rice gently with a fork or rice paddle.  
+Instant Pot
+
+Pro Tips for Success
+Avoid the "Rice" Button: Most "Rice" presets are calibrated for white rice. Stick to the Manual/Pressure Cook setting for brown rice.  
+Live Simply
+
+The 1:1 Rule: While stovetop recipes require more water because of evaporation, the Instant Pot is a sealed system. A 1:1 ratio prevents the rice from becoming gummy.
+
+Doubling the Recipe: You can cook as much rice as you need as long as you don't pass the "1/2 Full" line in the pot. The timing remains the same whether you cook 1 cup or 4 cups.
+
+Would you like me to suggest a few easy seasoning blends to stir in after the rice is done?
+
+make this for 2c of rice, and generate a recipe I can commit to my git recipe repository
+
+"""
+
+Write files
+with open("instant-pot-brown-rice.json", "w") as f:
+json.dump(recipe_json_ld, f, indent=2)
+
+with open("instant-pot-brown-rice.md", "w") as f:
+f.write(markdown_content)
+
+print("Files generated successfully.")
+
+
+```text?code_stdout&code_event_index=1
+Files generated successfully.
+
+Your files are ready:
+
+MD icon
+instant-pot-brown-rice
+ MD 
+Open
+JSON icon
+instant-pot-brown-rice
+ JSON 
+Open
+Instant Pot Perfect Brown Rice (2 Cups)
+Ingredients
+2 cups brown rice (long-grain, short-grain, or brown jasmine)
+
+2 cups water or stock
+
+½ tsp salt (optional)
+
+1 tsp olive oil or butter (optional, helps prevent foaming)
+
+Instructions
+Rinse: Place 2 cups of brown rice in a fine-mesh strainer and rinse under cold water until clear. Drain thoroughly.
+
+Combine: Add rinsed rice, 2 cups water/broth, salt, and oil/butter into the Instant Pot inner pot. Stir once to submerge all rice grains.
+
+Pressure Cook: Lock the lid, set the valve to Sealing, and cook on High Pressure for 15 minutes.
+
+Natural Release: Allow pressure to release naturally for 10 to 15 minutes before opening the valve.
+
+Fluff: Quick release any remaining steam, open the lid, and fluff with a fork.
+
+JSON-LD Schema for Your Git Repository
+You can save the file directly as instant-pot-brown-rice.json or embed the script tag into an HTML page for your GitHub Pages site:
+
+HTML
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "Instant Pot Perfect Brown Rice (2 Cups)",
+  "description": "Foolproof, tender, and fluffy brown rice made in the Instant Pot using a 1:1 liquid-to-rice ratio and a 15-minute high pressure cook time.",
+  "prepTime": "PT5M",
+  "cookTime": "PT15M",
+  "totalTime": "PT35M",
+  "recipeYield": "6 servings",
+  "category": "Side Dish",
+  "keywords": "instant pot, brown rice, pressure cooker, side dish, gluten-free",
+  "recipeIngredient": [
+    "2 cups brown rice (long-grain, short-grain, or brown jasmine)",
+    "2 cups water (or vegetable/chicken broth)",
+    "1/2 tsp salt",
+    "1 tsp olive oil or butter"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "text": "Rinse the brown rice under cold water in a fine-mesh strainer until clear, then drain well."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Add the rinsed rice, 2 cups water, salt, and oil/butter to the Instant Pot inner pot. Stir once to submerge the rice."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Secure lid, set valve to 'Sealing', and pressure cook on High for 15 minutes."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Allow natural pressure release (NR) for 10 to 15 minutes."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Release remaining steam, open the lid, and fluff rice gently with a fork."
+    }
+  ]
+}
+</script>
+
+
+
+Gemini is AI and can make mistakes.
+
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "Instant Pot Perfect Brown Rice (2 Cups)",
+  "description": "Foolproof, tender, and fluffy brown rice made in the Instant Pot using a 1:1 liquid-to-rice ratio and a 15-minute high pressure cook time.",
+  "prepTime": "PT5M",
+  "cookTime": "PT15M",
+  "totalTime": "PT35M",
+  "recipeYield": "6 servings",
+  "category": "Side Dish",
+  "cuisine": "American",
+  "keywords": "instant pot, brown rice, pressure cooker, side dish, gluten-free",
+  "recipeIngredient": [
+    "2 cups brown rice (long-grain, short-grain, or brown jasmine)",
+    "2 cups water (or vegetable/chicken broth)",
+    "1/2 tsp salt (optional)",
+    "1 tsp olive oil or butter (optional)"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "text": "Rinse the brown rice under cold water in a fine-mesh strainer for 30-60 seconds until the water runs clear. Drain thoroughly."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Add the rinsed rice, 2 cups of water (or broth), salt, and oil/butter (if using) to the inner pot of the Instant Pot. Stir once to ensure all rice is submerged."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Secure the lid, ensure the steam release valve is set to 'Sealing', and select 'Pressure Cook' (or 'Manual') on High Pressure for 15 minutes."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "When the cooking time finishes, allow the pressure to release naturally (NR) for 10 to 15 minutes before opening."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Quick release any remaining pressure, open the lid, and fluff the rice gently with a fork or rice paddle."
+    }
+  ]
+}
+instant-pot-brown-rice.json
+Displaying instant-pot-brown-rice.json.
