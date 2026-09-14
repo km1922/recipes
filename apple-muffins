@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>Apple Oatmeal Cinnamon Cottage Cheese Muffins</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Apple Oatmeal Cinnamon Cottage Cheese Muffins",
+    "description": "High-protein, low-sugar apple cinnamon oatmeal muffins made with blended cottage cheese and dark chocolate chips.",
+    "prepTime": "PT15M",
+    "cookTime": "PT24M",
+    "recipeYield": "24 muffins",
+    "recipeCategory": "Breakfast",
+    "recipeIngredient": [
+      "3 cups old-fashioned rolled oats",
+      "2 cups whole wheat flour",
+      "4 tsp ground cinnamon",
+      "2 tsp baking powder",
+      "1 tsp baking soda",
+      "1 tsp salt",
+      "2 cups low-fat cottage cheese",
+      "1 cup unsweetened applesauce",
+      "0.66 cup pure maple syrup",
+      "4 large eggs",
+      "4 tbsp melted coconut oil",
+      "2 tsp vanilla extract",
+      "3 cups sweet apples, finely diced",
+      "1 cup dark chocolate chips"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Preheat oven to 350°F (175°C). Line two 12-cup muffin tins with paper liners."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "In a blender, process cottage cheese, applesauce, maple syrup, eggs, coconut oil, and vanilla extract until completely smooth."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "In a large bowl, whisk together oats, flour, cinnamon, baking powder, baking soda, and salt."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Fold wet mixture into dry ingredients, then gently stir in diced apples and chocolate chips."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Divide batter evenly among 24 muffin cups and bake for 20 to 24 minutes until a toothpick inserted in the center comes out clean."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Cool in pans for 10 minutes, then transfer to a wire rack."
+      }
+    ]
+  }
+  </script>
+  <style>
+    body { font-family: system-ui, sans-serif; line-height: 1.6; max-width: 700px; margin: 2rem auto; padding: 0 1rem; color: #333; }
+    h1 { color: #2c3e50; }
+    ul, ol { padding-left: 1.2rem; }
+    li { margin-bottom: 0.5rem; }
+  </style>
+</head>
+<body>
+  <h1>Apple Oatmeal Cinnamon Cottage Cheese Muffins</h1>
+  <p><em>Yield: 24 muffins</em></p>
+  
+  <h2>Ingredients</h2>
+  <ul>
+    <li>3 cups old-fashioned rolled oats</li>
+    <li>2 cups whole wheat flour</li>
+    <li>4 tsp ground cinnamon</li>
+    <li>2 tsp baking powder</li>
+    <li>1 tsp baking soda</li>
+    <li>1 tsp salt</li>
+    <li>2 cups low-fat cottage cheese</li>
+    <li>1 cup unsweetened applesauce</li>
+    <li>⅔ cup pure maple syrup</li>
+    <li>4 large eggs</li>
+    <li>4 tbsp melted coconut oil or butter</li>
+    <li>2 tsp vanilla extract</li>
+    <li>3 cups sweet apples, finely diced</li>
+    <li>1 cup dark or sugar-free chocolate chips</li>
+  </ul>
+
+  <h2>Instructions</h2>
+  <ol>
+    <li>Preheat oven to 350°F (175°C). Line two 12-cup muffin tins with paper liners.</li>
+    <li>In a blender, process cottage cheese, applesauce, maple syrup, eggs, melted coconut oil, and vanilla extract until completely smooth.</li>
+    <li>In a large bowl, whisk together oats, flour, cinnamon, baking powder, baking soda, and salt.</li>
+    <li>Fold wet mixture into dry ingredients, then gently stir in diced apples and chocolate chips.</li>
+    <li>Divide batter into 24 muffin cups and bake for 20 to 24 minutes until a toothpick inserted in the center comes out clean.</li>
+    <li>Cool in pan for 10 minutes, then transfer to a wire rack.</li>
+  </ol>
+</body>
+</html>
