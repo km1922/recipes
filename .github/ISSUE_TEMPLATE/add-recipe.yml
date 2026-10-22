@@ -1,0 +1,13 @@
+name: Add New Recipe
+description: Automatically scrape and add a recipe to the repository
+title: "[Recipe]: "
+labels: ["recipe-intake"]
+body:
+  - type: input
+    id: recipe_url
+    attributes:
+      label: Recipe URL
+      description: Paste the direct link to the recipe (e.g. Pinch of Yum, NYT Cooking, etc.)
+      placeholder: https://...
+    validations:
+      required: true
