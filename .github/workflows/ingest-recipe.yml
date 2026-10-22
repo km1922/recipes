@@ -1,0 +1,99 @@
+name: Ingest Recipe from Issue
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  scrape-and-commit:
+    if: contains(github.event.issue.labels.*.name, 'recipe-intake')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install recipe-scrapers python-slugify
+
+      - name: Extract URL and Generate Markdown
+        id: parse
+        run: |
+          python - << 'EOF'
+          import os
+          import re
+          from slugify import slugify
+          from recipe_scrapers import scrape_me
+
+          body = os.environ.get("ISSUE_BODY", "")
+          # Extract URL from issue body
+          url_match = re.search(r'https?://[^\s]+', body)
+          if not url_match:
+              raise ValueError("No valid URL found in issue body")
+
+          url = url_match.group(0).rstrip(')')
+          scraper = scrape_me(url, wild_mode=True)
+
+          title = scraper.title()
+          slug = slugify(title)
+          ingredients = scraper.ingredients()
+          instructions = scraper.instructions().split('\n')
+          
+          # Build Markdown content
+          md_lines = [
+              "---",
+              f'title: "{title}"',
+              f'source_url: "{url}"',
+              f'total_time: "{scraper.total_time()} mins"',
+              f'yields: "{scraper.yields()}"',
+              "tags:",
+              "  - Dinner",
+              "---",
+              "",
+              f"# {title}",
+              "",
+              "## Ingredients",
+              ""
+          ]
+          for ing in ingredients:
+              md_lines.append(f"- {ing}")
+
+          md_lines.extend(["", "## Instructions", ""])
+          for step in instructions:
+              if step.strip():
+                  md_lines.append(f"1. {step.strip()}")
+
+          # Determine destination directory (adjust if using _posts/ or recipes/)
+          os.makedirs("recipes", exist_ok=True)
+          file_path = f"recipes/{slug}.md"
+
+          with open(file_path, "w", encoding="utf-8") as f:
+              f.write("\n".join(md_lines) + "\n")
+
+          print(f"Created recipe file at: {file_path}")
+          EOF
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+
+      - name: Commit and Push Recipe File
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add recipes/
+          git commit -m "Add recipe via issue #${{ github.event.issue.number }}" || exit 0
+          git push
+
+      - name: Close Issue
+        run: |
+          gh issue close ${{ github.event.issue.number }} --comment "Recipe successfully parsed and committed to the repository!"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
